@@ -9,3 +9,6 @@ ul {
   gap: 3.2rem;
   list-style-type: none;
 }
+ul .li .Link {
+  text-decoration: none;
+}

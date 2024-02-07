@@ -6,7 +6,9 @@ const Navbar = () => {
       <header>
         <div className="container">
           <div className="logo-brand">
-            <Link to="/">AdnanTechnical</Link>
+            <Link to="/">
+              <i class="fa-solid fa-book"></i>eLearning
+            </Link>
           </div>
 
           <nav>
@@ -18,16 +20,16 @@ const Navbar = () => {
                 <Link to="/about"> About </Link>
               </li>
               <li>
-                <Link to="/service"> Services </Link>
+                <Link to="/courses"> Courses </Link>
+              </li>
+              <li>
+                <Link to="/pages"> Pages </Link>
               </li>
               <li>
                 <Link to="/contact"> Contact </Link>
               </li>
               <li>
-                <Link to="/register"> Register </Link>
-              </li>
-              <li>
-                <Link to="/login"> Login </Link>
+                <button>Join Noq</button>
               </li>
             </ul>
           </nav>
